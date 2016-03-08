@@ -155,7 +155,7 @@ __END__
       %item
         %title
           <![CDATA[
-          item[:title]
+          = item[:title]
           ]]>
         %link= item[:url]
         %guid= item[:url]
